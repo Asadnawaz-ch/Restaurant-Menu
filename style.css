@@ -1,70 +1,169 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-header{
+
+header {
     display: flex;
     top: 0;
     position: sticky;
     margin: auto;
+    border-bottom: 0.3px solid grey;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     background-color: rgb(0, 0, 0);
     width: 100%;
     margin: auto;
 }
-nav .logo{
-  display: flex;
-  margin: auto;
+
+nav .logo {
+    display: flex;
+    margin: auto;
 }
-nav .logo img{
+
+nav .logo img {
     width: 50px;
     height: auto;
     margin-left: 20px;
 }
 
-.menu{
-    margin-right: 500px;
+.menu {
+    margin-right: 100px;
     list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
 }
-.menu li{
+
+.menu li {
     margin: 0 15px;
 }
-.menu li a{
+
+.menu li a {
     text-decoration: none;
     color: white;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.menu li a:hover{
+
+.menu li a:hover {
     color: grey;
 }
-.form{
+
+.form {
     margin-right: 20px;
-    padding-top: 1px;
+    padding-top: 6px;
 }
-.users button{
+
+.users button {
+    background: transparent;
     margin: auto;
-    padding: 8px 6px;
+    padding: 8px 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     color: rgb(201, 201, 5);
 }
-.users button:hover{
-    background-color: #45a049;
+
+.users button:hover {
+    color: white;
 }
-#Welcome-note{
+
+.welcome-note {
     text-align: center;
-    margin-top: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 36px;
-    color: #333;
+    font-size: 20px;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.7)url(/Images/food-4k-1pf6px6ryqfjtnyr.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.welcome-note h1 {
+    font-size: 48px;
+    color: rgb(253, 177, 35);
+    padding:20px 0px;
+
+}
+.welcome-note p {
+    font-size: 20px;
+    color: white;
+    padding:10px 0px;
+}   
+.welcome-note button {
+    margin-top: 20px;
+    padding: 10px 40px;
+    font-size: 18px;
+    border:1px solid rgba(0, 0, 0, 0.253);
+    border-radius: 100px;
+    cursor: pointer;
+    background-color: rgb(253, 177, 35);
+}
+.welcome-note button a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.main-menu{
+    width: device-width;
+    height: 100vh;
+}
+.main-menu h2{
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blueviolet;
+    padding-top: 50px;
+}
+.salad,.dishes{
+    display: inline-block;
+    background-color: rgb(224, 224, 224);
+    width: 280px;
+    padding: 20px 10px;
+    border-bottom: 3px solid gray;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px grey;
+    margin: auto;
+    margin-top: 20px;
+    margin: 30px;
+
+}
+.salad img{
+    width: 250px;
+    height: 270px;
+    padding-left: 13px;;
+}
+.dishes img{
+    width: 250px;
+    height: 270px;
+    padding-left: 13px;;
+}
+.bedrooms{
+     display: inline-block;
+    background-color: rgb(224, 224, 224);
+    width: 400px;
+    padding: 20px 10px;
+    border-bottom: 3px solid gray;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px grey;
+    margin: auto;
+    margin:60px 40px;
+}
+.bedrooms img{
+    width: 370px;
+    height: 300px;
+    padding-left: 13px;;
 }
