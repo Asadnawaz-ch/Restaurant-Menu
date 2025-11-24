@@ -167,3 +167,15 @@ nav .logo img {
     height: 300px;
     padding-left: 13px;;
 }
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.social a,.policies a{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
