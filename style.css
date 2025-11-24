@@ -186,3 +186,7 @@ footer{
     color: white;
     margin: 0 10px;
 }
+.social a img{
+    margin-right: 8px;
+    width: 15px;
+}   
